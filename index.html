@@ -5,11 +5,10 @@
     <meta name="viewport" content="width=>, initial-scale=1.0">
     <title>Document</title>
     <style>
-        table, th, td {
-          border: 1px solid black;
-          width: 100%;
-          text-align: left;
-        }
+          table, th, td {
+          border:1px solid black;
+         border-collapse: collapse;
+         }
         h1.intro::first-letter{
             color: red;
             font-size: 200%
@@ -17,20 +16,33 @@
     </style>
 </head>
 <body>
-    <h1.intro> Marcos Eduardo da Rocha Gomes</h1.intro>
+    <h1 class="intro"> Marcos Eduardo da Rocha Gomes</h1>
     <h2> Maria Ondina de Andrade</h2>
     <p>HOBBY: Jogos em geral</p>
     <p>MOTIVAÇÃO: Criar um jogo de sucesso</p>
     <p>CURIOSADIDADE: Quando uma baleia morre, os gases dentro dela se acumulam, podendo ou não fazer seu corpo morto explodir</p>
-    <table style="width:100%">
+    <table style="width:10%">
         <tr>
-            <th>Especificações do PC</th>
+          <th style="width:70%">Especificações</th>
+          <th>Computador</th> 
         </tr>
         <tr>
-            <td><strong>Placa de video:</strong>AMD Radeon RX 580</td>
-            <td><strong>Processador: </strong>Intel(R) Xeon(R) CPU E5-2666 v3</td>
-            <td><strong>Memória RAM: </strong>16,0 GB</td>
+          <td>Processador</td>
+          <td>Intel(R) Xeon(R) CPU E5-2666 v3</td>
         </tr>
-    </table>
+        <tr>
+          <td>Placa de vídeo</td>
+          <td>AMD Radeon RX 580</td>
+        </tr>
+        <tr>
+          <td>RAM</td>
+          <td>16 GB</td>
+        </tr>
+        <tr>
+            <td>Armazenamento</td>
+            <td>HD: 500GB <br> SSD: 1TB</td>
+        </tr>
+      </table>
+      
 </body>
 </html>
